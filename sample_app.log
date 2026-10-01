@@ -1,0 +1,6 @@
+2026-10-01 10:15:02 INFO Application started successfully
+2026-10-01 10:17:45 WARN High latency detected on database query
+2026-10-01 10:20:11 ERROR Connection timeout to payment gateway
+2026-10-01 10:22:04 ERROR Database connection refused
+2026-10-01 10:25:30 ERROR Connection timeout to payment gateway
+2026-10-01 10:30:12 FATAL Out of memory error in worker pool

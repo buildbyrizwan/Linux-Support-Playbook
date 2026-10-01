@@ -3,8 +3,14 @@
 ## 🛠 Included Automation Scripts
 
 - **`scripts/health_check.sh`**: One-command diagnostic script that audits CPU load average, RAM consumption, disk threshold capacity (>85%), top memory-consuming processes, and network reachability.
+
+### 🖥️ Health Check Script Output
+![Health Check Output](assets/health_check_output.png)
+
 - **`scripts/log_parser.sh`**: High-performance log parsing utility using `grep`, `awk`, and `sort` to aggregate error codes and find recurring production issues.
 
+### 📊 Log Parser Script Output
+![Log Parser Output](assets/log_parser_output.png)
 ---
 
 ## 📌 Production Incident Triage Cheatsheet
@@ -61,3 +67,6 @@ chmod +x scripts/health_check.sh scripts/log_parser.sh
 ```bash
 ./scripts/log_parser.sh /path/to/logfile.log
 ```
+
+### ⚡ Setup & Execution Proof
+![Setup and Execution](assets/setup_execution.png)

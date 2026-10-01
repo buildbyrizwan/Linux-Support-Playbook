@@ -35,3 +35,4 @@ echo -e "\n--- Top 5 Most Frequent Error Messages ---"
 grep -i "ERROR" "$LOG_FILE" | awk -F "ERROR" '{print $2}' | sort | uniq -c | sort -nr | head -n 5
 
 echo "=========================================================="
+
